@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: community_production
+  database: db
   pool: 5
-  username: community
-  password:
+  username: root
+  password: Ov2OpGE6RYM9XTOS

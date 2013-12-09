@@ -28,8 +28,9 @@
     <data-source source="LOCAL" name="Rails community: production" uuid="7d1e10cf-c4bd-430f-8635-5a0a0b52fbe9">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:community_production</jdbc-url>
-      <user-name>community</user-name>
+      <jdbc-url>jdbc:postgresql:db</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe5dfdcdf98dfe5dfdadfeddfefdf9cdff8dff3dfe7df93dff2dffedfe5dff9</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
