@@ -2,6 +2,11 @@ Community::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+  get 'sign_in' => 'sessions#new'
+  get 'sign_out' => 'sessions#destroy'
+
+  get 'sign_up' => 'users#new'
+
   root 'societies#index'
 
   # You can have the root of your site routed with "root"
