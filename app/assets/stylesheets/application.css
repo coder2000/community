@@ -16,6 +16,10 @@
     margin-top: 15px;
 }
 
-.btn {
+nav .btn {
     margin-right: 10px;
+}
+
+form .btn {
+    margin-top: 5px;
 }
