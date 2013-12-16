@@ -18,20 +18,24 @@
     <div class="page-header">
       <h1>Sign Up</h1>
     </div>
-    <%= form_for @user, role: 'form' do |f| %>
+    <%= form_for @user, html: { role: 'form' } do |f| %>
     <div class="row">
       <div class="col-md-6">
+        <%= f.label :username, class: 'sr-only' %>
         <%= f.text_field :username, class: 'form-control', placeholder: 'Username' %>
       </div>
       <div class="col-md-6">
+        <%= f.label :email, class: 'sr-only' %>
         <%= f.text_field :email, class: 'form-control', placeholder: 'E-Mail' %> <br/>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
+        <%= f.label :password, class: 'sr-only' %>
         <%= f.password_field :password, class: 'form-control', placeholder: 'Password' %>
       </div>
       <div class="col-md-6">
+        <%= f.label :password_confirmation, class: 'sr-only' %>
         <%= f.password_field :password_confirmation, class: 'form-control', placeholder: 'Password Confirmation' %>
       </div>
     </div>

@@ -30,7 +30,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'sorcery', github: 'NoamB/sorcery'
-gem 'rails_12factor', group: :production
+
+group :production do
+  gem 'rails_12factor'
+  gem 'heroku-deflater'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
