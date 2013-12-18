@@ -1,0 +1,8 @@
+<%= nav_bar brand: 'MINECRAFT SOCIETIES', responsive: true do %>
+    <%= menu_group pull: :right do %>
+        <%= drop_down 'Account' do %>
+            <%= menu_item 'Sign Up', sign_up_path %>
+            <%= menu_item 'Sign In', sign_in_path %>
+        <% end %>
+    <% end %>
+<% end %>

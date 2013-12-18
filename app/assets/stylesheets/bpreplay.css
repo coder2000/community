@@ -1,0 +1,10 @@
+@font-face {
+    font-family: BPreplay;
+    src: local('BPreplay'), url(http://community.app.dieterlunn.ca/BPreplay.otf);
+}
+
+@font-face {
+    font-family: BPreplayBold;
+    src: local('BPreplay Bold'), local('BPreplay-bold'), url(http://community.app.dieterlunn.ca/BPreplayBold.otf);
+}
+

@@ -16,8 +16,14 @@
     margin-top: 15px;
 }
 
-nav .btn {
-    margin-right: 10px;
+.navbar-brand {
+    font-family: "BPreplayBold";
+    color: rgb(59, 134, 196) !important;
+}
+
+.nav {
+    font-family: "Montserrat";
+    font-weight: 700;
 }
 
 form .btn {
