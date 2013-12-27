@@ -12,6 +12,10 @@
  *= require_tree .
  */
 
+body {
+    font-family: "PT Sans"
+}
+
 .container {
     margin-top: 15px;
 }

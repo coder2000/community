@@ -5,15 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="description" content="Minecraft Communities is a website for the communities of Anthemion and Meerkats on Minecraft." />
-  <title>Minecraft Communities</title>
-  <link data-turbolinks-track="true" href='http://fonts.googleapis.com/css?family=PT+Sans|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta name="description" content="Minecraft Societies is a website for the communities of Anthemion and Meerkats on Minecraft." />
+  <title>Minecraft Societies</title>
+  <link data-turbolinks-track="true" href="http://fonts.googleapis.com/css?family=PT+Sans|Montserrat:400,700" rel="stylesheet" type="text/css">
   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
   <div class="container">
+    <%= render "application/default_nav" %>
+
+    <%= bootstrap_flash %>
+
     <%= yield %>
   </div>
 
